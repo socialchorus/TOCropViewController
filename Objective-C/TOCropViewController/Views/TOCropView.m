@@ -121,8 +121,7 @@ typedef NS_ENUM(NSInteger, TOCropViewOverlayEdge) {
 {
     if (self = [super init]) {
         _image = image;
-        // Set croppingStyle to be always circular
-        _croppingStyle = TOCropViewCroppingStyleCircular;
+        _croppingStyle = style;
         [self setup];
     }
     
